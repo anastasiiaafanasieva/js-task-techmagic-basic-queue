@@ -6,7 +6,6 @@ const removeButton = document.querySelector('.queue__button-remove');
 const queueBlocks = document.querySelector('.queue__blocks');
 const limitValue = 28;
 let inputValue = '';
-let addInput;
 const key = 'item';
 
 input.addEventListener('change', (event) => {
